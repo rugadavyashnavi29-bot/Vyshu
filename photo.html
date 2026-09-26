@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+          .index-box{
+            position:relative;
+            display:inline-block;
+          }
+          .b{
+            position:absolute;
+            width:200px;
+            height:30px;
+            align-items: center;
+            padding-top: 7px;
+            right:90px;
+            left:300px;
+            bottom:30px;
+            color:white;
+            font-family:'Franklin Gothic Medium';
+            background-color: aliceblue;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 10px;
+            border-color: rgb(203, 198, 202);
+          }
+          .b:hover{
+            color:rgb(52, 6, 39);
+            background-color: rgb(198, 151, 187);
+          }
+          .click{
+            position:absolute;
+            bottom:70px;
+            right:120px;
+            left:400px;
+            color:white;
+            background-color: rgb(79, 80, 81);
+            border:solid rgb(214, 212, 212);
+            width:100px;
+            height:40px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            display:flex;
+            flex-direction: row;
+          }
+          .p{
+            position:absolute;
+            bottom:0;
+            left:280px;
+            font-size: 70px;
+          }
+          .index-box img{
+            border-radius: 100px;
+            position:relative;
+            left:200px;
+            border:5px solid black;
+          }
+        </style>
+    </head>
         <title>My photo</title>
         <body>
-           <a href="index.html">
-
-           <img src="myphoto.jpg.jpeg" alt="My photo" width="500">
+        <a href="index.html">
+        <div class="index-box"><div class="img">
+            <img src="chandini.jpg.jpeg" alt="Birthday  photo" width="400"></div>
+           <div class="b"><b>HAPPY BIRTHDAY CHANDINI  </b></div>
+           <button class="click">Click Here &#128071</button>
+            <p class="p">&#127874</p>
+           
+        </div>
+           
         </a>
         </body>
-    </head>
+   
 </html>
